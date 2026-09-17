@@ -1,0 +1,47 @@
+Examen
+“DESARROLLO DE APLICACIONES Y SERVICIOS VIRTUALES”
+Primer Parcial parte 2 Orlando Villalobos Gutiérrez 195029-1
+
+1. Flujo colaborativo
+Supón que quieres colaborar con el repositorio de otro desarrollador. Ordena y explica los siguientes
+elementos: Push, Fork, Pull Request, Clone, Merge, Commit, Review, Branch y Modificar archivos. Agrega
+cualquier operación que consideres necesaria.
+
+R:
+	1- Primero es el fork para tener una copia del repositorio en la nuve
+	2- Clone clonas TU fork, no el repositorio del dueño
+    3- Modificar archivos — editar/crear cualquier archivos del repositorio
+    4- Push para que se vayan los cambios a tu fork en la nube
+    5- add o stage donde vas a gregar todos los cambios que realisaste
+    6- Commit para ya tenerlo en un control de versiones en tu repositorio
+    7- Push para que se vean los cambios reflejados en tu repositorio de la nube
+    8- Pull Request — enviar solicitud de cambios al repositorio original
+    9- Review — el dueño revisa REQUEST_CHANGES / APPROVE. Si pide cambios volver a paso 4 y hacer push ala misma rama
+    10- Merge — el dueño fusiona el PR; luego sincronizas tu fork
+
+2. Fork y Clone
+Analiza la afirmación: “Clone crea una copia del proyecto dentro de mi cuenta de GitHub”. Indica si es
+correcta y explica la diferencia entre Fork y Clone.
+    R: Eso es falso porque el clone crea una copia del proyecto en tu git local y el fork la crea pero en tu repositorio  de la nube "GitHub”
+
+3. Pull Request
+Supón que realizaste Fork, Clone, Branch, Modificar, Commit y Push. Responde: ¿los cambios ya forman parte
+del repositorio original? ¿Qué debe ocurrir para incorporarlos?
+    R: Falta hacer un Pull Request (PR). Y esperar que él haga un Review y Merge
+
+4. Request Changes
+El propietario revisa tu Pull Request y selecciona Request Changes. Explica qué debes hacer, si necesitas
+crear otro Pull Request y qué ocurre cuando realizas nuevamente push.
+    R: Corriges en la misma rama y haces git commit + git push. No creas otro PR, el existente seactualiza solo para que el sueño lo vuela a poner en Review
+
+5. Merge y repositorio local
+Un Pull Request fue aceptado y se realizó Merge en GitHub. Sin embargo, el repositorio local del propietario no
+contiene los cambios. Explica por qué sucede y qué operación debe realizarse
+    R: Primero tiene que hacer un git pull de su repositorio local para que se actulicen los cambios
+
+6. Sync Fork
+Tu Fork fue creado varios días atrás y el repositorio original recibió nuevos commits. Explica qué herramienta
+utilizarías, qué repositorio se actualiza y qué diferencia existe entre Sync Fork y git pull.
+    R: Primero se tiene que hacer un Sync Fork para que se actalice con el repositorio original y despues hacer un git pull para que se actalice el local. La diferencia es que el Sync Fork actualiza los cambios de la nube y el Pull lo hace de la nube al local.
+
+    

@@ -1,0 +1,33 @@
+1. Analiza
+git status -- Checa cuatos archivos hay sin actualizarse o actualizados para el stage
+git add README.md -- lo añade a fase de stage
+git commit -m "Actualiza documentación" --Lo esta mandando a una nueva version llamada Actualiza documentación
+git push -- Lo esta mandando al repositorio en la nube
+Explica qué ocurre en cada instrucción.
+
+2. Identifica qué falta
+Caso A
+Modificar archivo
+↓
+git add .
+↓
+¿? -- git commit
+↓
+git push
+Indica qué operación falta y explica su función.
+
+Caso B
+Repositorio GitHub
+↓
+¿? --git clone 
+↓
+Repositorio local
+Indica qué operación utilizarías y explica por qué.
+
+Caso C
+Repositorio remoto actualizado
+↓
+¿? git pull origin main
+↓
+Repositorio local actualizado
+Indica qué operación utilizarías y explica por qué.
